@@ -1,0 +1,29 @@
+2018-11-01 11:43:51.7465|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2018-11-01 11:43:51.7465|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2018-11-01 11:43:52.2766|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 698.964ms 200 
+2018-11-01 11:43:54.0839|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2290.0435ms 404 text/plain
+2018-11-01 11:43:54.3743|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1  
+2018-11-01 11:43:54.4600|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2018-11-01 11:43:54.5037|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 129.2937ms 404 text/plain
+2018-11-01 11:43:55.4266|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) with arguments (1) - ModelState is Valid
+2018-11-01 11:43:55.4949|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-11-01 11:43:55.7338|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) in 491.8429ms
+2018-11-01 11:43:55.7788|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1404.4553ms 200 application/xml; charset=utf-8
+2018-11-01 11:45:12.1529|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1  
+2018-11-01 11:45:12.1529|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2018-11-01 11:45:12.1529|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2018-11-01 11:45:12.3149|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 210.3224ms 200 
+2018-11-01 11:45:12.5818|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 457.6507ms 404 text/plain
+2018-11-01 11:45:13.0743|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) with arguments (1) - ModelState is Valid
+2018-11-01 11:45:13.1235|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-11-01 11:45:13.1864|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) in 340.8581ms
+2018-11-01 11:45:13.2468|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1115.1984ms 200 application/xml; charset=utf-8
+2018-11-01 11:59:55.3710|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2018-11-01 11:59:55.3710|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2018-11-01 11:59:55.5228|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 226.3497ms 200 
+2018-11-01 11:59:55.7517|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 474.2164ms 404 text/plain
+2018-11-01 12:00:36.3826|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/1  
+2018-11-01 12:00:36.8144|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) with arguments (1) - ModelState is Valid
+2018-11-01 12:00:36.8748|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-11-01 12:00:36.9360|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) in 369.3129ms
+2018-11-01 12:00:36.9458|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 567.9385ms 200 application/xml; charset=utf-8
